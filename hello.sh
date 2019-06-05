@@ -2,4 +2,4 @@
 
 echo "Hello toure5013!"
 
-curl 'https://api.github.com/users/toure5013/login'
+curl 'https://api.github.com/users/toure5013'
