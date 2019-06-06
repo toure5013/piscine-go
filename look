@@ -1,4 +1,9 @@
 #! /bin/bash
-find . -regextype posix-egrep -regex '\./[a-zA-Z0-9]{*}'
-find . -regextype posix-egrep -regex '\./[za-zA-Z0-9]{*}'
-find . -regextype posix-egrep -regex '\./[a-z]{*}-z'
+find . -regextype posix-egrep -regex '\./[a*]{*}'
+find . -regextype posix-egrep -regex '\./[z*]{*}'
+find . -regextype posix-egrep -regex '\./[z*a!]{*}'
+
+
+find /. -regextype posix-egrep -regex '\./[a*]{*}'
+find /. -regextype posix-egrep -regex '\./[*z]{*}'
+find /. -regextype posix-egrep -regex '\./[z*a!]{*}'
