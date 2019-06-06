@@ -1,5 +1,5 @@
 #! /bin/bash
-find  -regextype posix-egrep -regex '\./[a*]{*}'
-find  -regextype posix-egrep -regex '\./[z*]{*}'
-find  -regextype posix-egrep -regex '\./[z*a!]{*}'
+find . -name "a*"
+find . -name "*z"
+find . -name "z*a!"
 
