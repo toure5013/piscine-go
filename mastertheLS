@@ -1,4 +1,3 @@
 #! /bin/bash
 
-ls -lF
-
+ls -Fm | sed -e 's/,/,/g'
