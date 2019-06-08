@@ -1,5 +1,2 @@
 #! /bin/bash
-find .
-find . -regex "^a"
-find . -regex "^z"
-find . -regex "z^a!"
+find . \( -type d -o -type f \) -name "*.sh" | sed -e 's/\.sh//g'
