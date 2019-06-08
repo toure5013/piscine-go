@@ -1,3 +1,5 @@
 #! /bin/bash
 find .
 find . -regex "^a"
+find . -regex "^z"
+find . -regex "z^a!"
